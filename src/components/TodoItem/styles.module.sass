@@ -1,0 +1,32 @@
+.card
+    box-sizing: border-box
+    width: 100%
+    padding: 25px 30px
+    background-color: #eee
+    border: 1px solid #888
+    margin-bottom: 25px
+
+.title
+    margin: 0 0 40px
+    font-family: sans-serif
+
+@mixin button()
+    display: inline-block
+    padding: 10px 20px
+    border-radius: 0
+    border: 0
+    margin-right: 20px
+    font-size: 1rem
+    &:last-child
+        margin-right: 0
+
+.completeBtn
+    @include button()
+    background-color: #0a0
+    color: #fff
+
+.deleteBtn
+    @include button()
+    background-color: #a00
+    color: #fff
+
