@@ -3,21 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "eslint-config-google": "^0.14.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "lint": "eslint --ext .jsx,.js ./src"
   },
   "browserslist": {
     "production": [
