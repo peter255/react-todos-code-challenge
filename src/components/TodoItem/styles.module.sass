@@ -1,10 +1,10 @@
 .card
     box-sizing: border-box
-    width: 100%
     padding: 25px 30px
     background-color: #eee
     border: 1px solid #888
     margin-bottom: 25px
+    overflow: hidden
 
 .title
     margin: 0 0 40px
@@ -17,6 +17,7 @@
     border: 0
     margin-right: 20px
     font-size: 1rem
+    margin-bottom: 20px
     &:last-child
         margin-right: 0
 
@@ -29,4 +30,16 @@
     @include button()
     background-color: #a00
     color: #fff
+
+.editBtn
+    @include button()
+    background-color: #0b3d5e
+    color: #fff
+
+.completed
+    color: #0a0
+    font-size: 2rem
+    margin-right: 20px
+
+
 
